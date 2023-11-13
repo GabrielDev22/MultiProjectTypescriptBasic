@@ -1,0 +1,83 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #091d35;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 15px;
+    color: white;
+}
+
+.nav_items{
+    border: 1px solid white;
+}
+
+.nav_items a {
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+}
+
+.nav_list{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    list-style: none;
+
+}
+
+.nav_listItem{
+    border: 1px solid white;
+    padding: 7px;
+}
+
+.nav_listItem_subItems{
+    max-height: 0;
+    overflow: hidden;
+    color: white;
+    list-style: none;
+}
+
+.nav_listItem_subItems-active{
+    background-color: #091d35;
+    max-height: 300px;
+    border: 1px solid white;
+}
+
+.nav_items a:hover{
+    transition: all 0.3s;
+    border-bottom: 1px solid #E50E0B;
+    color: #E50E0B;
+}
+
+.subItems{
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    transition: all 0.6s ease-in;
+    color: white;
+}
+
+.subItems:hover{
+    background-color: #a8211f;
+    border-radius: 10px;
+}
+
+.nav_toggle{
+    display: none;
+}

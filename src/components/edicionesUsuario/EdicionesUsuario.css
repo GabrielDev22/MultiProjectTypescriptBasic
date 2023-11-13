@@ -1,0 +1,48 @@
+.contenedorIconosCambios{
+    display: flex;
+}
+
+.icono{
+    width: 60px;
+}
+
+.icono:hover{
+    color:blue;
+}
+
+.contenedorTextoEditar{
+    width: 300px;
+    border: 1px solid black;
+}
+
+.right{
+    margin-left: 15rem;
+}
+
+.left{
+    margin-left: 10rem
+}
+
+.top{
+    margin-top: 20rem
+}
+
+.bottom{
+    margin-bottom: 1rem;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+.subrayar{
+    text-decoration: underline;
+}
