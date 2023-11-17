@@ -1,0 +1,16 @@
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 400px;
+    border: 1px solid black;
+}
+
+.imagenCompleta{
+    width: 100%;
+    height: 100vh;
+    transition: 3s ease-in;
+}
+

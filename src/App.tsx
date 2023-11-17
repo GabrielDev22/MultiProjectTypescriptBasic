@@ -6,6 +6,9 @@ import { PracticaTypescript } from './components/PracticaDatos/PracticaTypescrip
 import { EdicionesUsuario } from './components/edicionesUsuario/EdicionesUsuario'
 import { Navbar } from './components/Navbar/Navbar';
 import { Historias } from './components/generadorHistorias/Historias';
+import { GaleriaImagenes } from './components/galeriaImagenes/GaleriaImagenes';
+import { ProgressBar } from './components/progressBar/ProgressBar';
+
 
 function App() {
 
@@ -18,6 +21,8 @@ function App() {
           <Route path='/' element={<PracticaTypescript />}></Route>
           <Route path='/edicionesUsuario' element={<EdicionesUsuario />}></Route>
           <Route path='/generadorHistorias' element={<Historias />}></Route>
+          <Route path='/galeriaImagenes' element={<GaleriaImagenes />}></Route>
+          <Route path='/progressBar' element={<ProgressBar />}></Route>
         </Routes>
       </Router>
     </>

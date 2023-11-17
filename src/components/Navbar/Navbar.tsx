@@ -14,14 +14,17 @@ export const Navbar = () => {
                     <Link to='/'>PracticasDatos</Link>
                 </li>
                 <li className="nav_listItem">
-                        <Link to='/edicionesUsuario'>EdicionesUsuario</Link>                
+                        <Link to='/edicionesUsuario'>EdicionesUsuarioTexto</Link>                
                 </li>
                 <li className="nav_listItem">
                         <Link to='/generadorHistorias'>GeneradorHistorias</Link> 
                 </li> 
-                    <li className="nav_listItem">
-                        <a>Prox</a>
-                    </li>                
+                <li className="nav_listItem">
+                        <Link to='/galeriaImagenes'>Galeria</Link>
+                </li>    
+                <li className="nav_listItem">
+                        <Link to='/progressBar'>ProgressBar</Link>
+                </li>                
             </ul>
         </div>
         <div className={`nav_toggle ${isOpen && "open"}`} onClick={() => setIsOpen(!isOpen)}>
